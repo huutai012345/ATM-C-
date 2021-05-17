@@ -1,0 +1,28 @@
+ATM mo phong 
+	- Đăng nhập
+		+ Nhập ID, nhập pass
+		+ Nhập đúng
+			Hiển thị chức năng
+		+ Sai:
+			từ dưới 5 lần => nhập lại
+			quá 5 lần (liên tiếp) => khoá thẻ
+
+	- Gửi tiền
+		+ 10.000 VND
+		+ Nhập mệnh giá và số tờ
+		+ Nạp tiền cho người đó
+		+ Nạp tiền vào máy
+
+	- Rút tiền
+		+ Số tiền nhỏ nhất rút được
+		+ Nhập số tiền
+		+ Kiểm tra:
+			+ bội số
+			+ số dư
+			...
+		+ Lấy tiền ra
+			tờ nào
+			số tờ trả ra là ít nhất
+
+	- Lưu lại/xem lịch sử:
+		thao tác với file
